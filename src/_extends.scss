@@ -1,0 +1,15 @@
+%button {
+	background: none;
+	border: none;
+	appearance: none;
+    margin-top: 15px;
+    padding: 6px;
+    color: #5E6C84;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 1.16;
+	transition: 0.5s all;
+    svg {
+		margin-right: 4px;
+	}
+}

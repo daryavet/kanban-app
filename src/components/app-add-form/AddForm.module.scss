@@ -1,0 +1,28 @@
+@import '../../vars';
+@import '../../extends';
+
+.form {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	display: block;
+	background: #fff;
+	border: none;
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 7px;
+	padding: 8px;
+}
+
+.submitButton {
+	@extend %button;
+	color: #fff;
+	background: $blue;
+	padding: 6px 18px;
+	&:hover {
+		background: $deep-blue;
+	}
+}

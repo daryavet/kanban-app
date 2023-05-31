@@ -1,0 +1,68 @@
+@import '../../vars';
+
+.select {
+	position: relative;
+	background: $light-gray;
+	border: none;
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 7px;
+	
+
+	&__header{
+		border-radius: 5px;
+		background: #fff;
+		cursor:pointer;
+		display:flex;
+	}
+	&__current{
+		font-size:18px;
+		line-height: 1.16;
+		padding: 8px;
+		
+	}
+	&__icn{
+		align-items: center;
+		display:flex;
+		flex-shrink: 0;
+		justify-content: center;
+		margin-left: auto;
+		text-align: center;
+		height: 35px;
+		width:35px;
+		width: 40px;
+		color:rgba(21, 19, 19, 0.68);
+		transition: 0.5s all;
+		
+	}
+	&__body{
+		
+		position:relative;
+		left:0;
+		right: 0;
+		top:100%;
+		
+		
+	}
+	&__item{
+		cursor:pointer;
+		border-radius: 5px;
+		background: #fff;
+		line-height: 24px;
+		margin-top: 15px;
+		font-size: 18px;
+		padding:8px;
+		transition: 0.5s all;
+		&:hover{
+			background: rgba($color: $blue, $alpha: 0.3);
+		}
+	}
+}
+
+.is-active {
+	display:flex;
+	flex-direction: column;
+}
+.turn{
+	transform:rotate(180deg);
+}

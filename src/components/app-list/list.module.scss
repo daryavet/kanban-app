@@ -1,0 +1,53 @@
+@import '../../vars';
+@import '../../extends';
+
+.list {
+	min-width: 282px;
+	max-width: 24%;
+	height: 100%;
+	background: $light-gray;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+}
+
+.listTitle {
+	margin-bottom: 15px;
+}
+
+.task {
+	background: #fff;
+	color: #000;
+	margin: 15px 0;
+	padding: 8px;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 1.16;
+	word-wrap: break-word;
+	&:hover {
+		color: $deep-blue;
+	}
+}
+
+.taskLink {
+	text-decoration: none;
+}
+
+.addButton {
+	@extend %button;
+	color: #5E6C84;
+	&:hover {
+		background: #fff;
+	}
+	
+}
+
+.addButtonDisabled {
+	@extend %button;
+	color: #b7babf;
+	cursor: default;
+}
+
+.trackVertical {
+	border-radius: 5px !important;
+}
