@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Header from "./components/app-header/header";
 import Main from "./components/app-main/Main";
 import Footer from "./components/app-footer/footer";
-import data from './mock.json'
+// import data from './mock.json'
 
 function App() {
   const initialState = JSON.parse(window.localStorage.getItem('tasks')) || []

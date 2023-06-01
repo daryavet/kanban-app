@@ -1,5 +1,4 @@
 
-import { useState } from 'react'
 import "./Header.scss"
 import arrow from '../../content/arrow-down.svg'
 
