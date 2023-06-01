@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div className="profile_content_wrapper">
                 <button onClick={showMenu} id="dropdown-btn" className="drop_btn">
-					<img className='drop_btn_arrow' src={arrow} alt=""arrow/>
+					<img className='drop_btn_arrow' src={arrow} alt="arrow"/>
                 </button>
 
                 <div className="dropdown_menu" id="dropdown">

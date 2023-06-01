@@ -40,7 +40,7 @@ const SelectAddNewTask = props => {
             </div>{
                 isOpen && ( 
                 <div id="select_body" className={css.select__body}>
-               {filteredTasks.map(task => <option className={css.select__item} key={task.id} value={task.id} onClick={handleSelectChange} target>{task.title}
+               {filteredTasks.map(task => <option className={css.select__item} key={task.id} value={task.id} onClick={handleSelectChange}>{task.title}
                </option>)
                } 
             
